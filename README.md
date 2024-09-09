@@ -175,12 +175,12 @@ Copy my tmux.conf
 
 Restart TMUX
 ```lua
-ctrl + a + :source-file ~/.config/tmux/tmux.conf
+leader (ctrl + a) + :source-file ~/.config/tmux/tmux.conf
 ```
 
 Install TMUX Plugins
 ```lua
-ctrl + a + shift + i
+leader (ctrl + a) + shift + i
 ```
 
 ## Install Node
@@ -360,12 +360,15 @@ leader (space) + w + r -- Restore Session
 
 ## TMUX
 ```lua
-ctrl + a + h/j/k/l -- To Resize Split Pane
+leader (ctrl + a) + | -- To horizontal split pane
+leader (ctrl + a) + - -- To vertical split pane
+
+leader (ctrl + a) + h/j/k/l -- To Resize Split Pane
 ctrl + h/j/k/l -- To Navigate Between Split Pane
 
-ctrl + a + c -- To Create New Window
-ctrl + a + (number of the window) -- To Navigate Between Window
-ctrl + a + n/p -- To Next or Previous Window
-ctrl + a + , -- Renaming Window
-ctrl + a + w -- To View All Window
+leader (ctrl + a) + c -- To Create New Window
+leader (ctrl + a) + (number of the window) -- To Navigate Between Window
+leader (ctrl + a) + n/p -- To Next or Previous Window
+leader (ctrl + a) + , -- Renaming Window
+leader (ctrl + a) + w -- To View All Window
 ```
