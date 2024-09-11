@@ -274,8 +274,8 @@ leader (space) + h + d -- To see the difference on the old and the new
 ```lua
 leader (space) + c + a -- Will open the recommendations for how to fix it
 leader (space) + r + n -- This will rename all instances of that string on the current file or anywhere in other file
-g + d -- Go to definition
-g + t -- Go to type definition
+leader (space) g + d -- Go to definition
+leader (space) g + t -- Go to type definition
 ctr + o -- To back
 leader (space) + r + s -- To restart LSP
 ```
