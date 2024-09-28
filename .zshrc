@@ -33,3 +33,10 @@ alias cd="z"
 alias vim="nvim"
 alias reload-zsh="source ~/.zshrc"
 alias edit-zsh="nvim ~/.zshrc"
+
+# bun completions
+[ -s "/home/ali/.bun/_bun" ] && source "/home/ali/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

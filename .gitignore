@@ -23,6 +23,7 @@ Videos
 .sudo_as_admin_successful
 .zcompdump
 .zhistory
+.bun
 
 # .config
 dconf
