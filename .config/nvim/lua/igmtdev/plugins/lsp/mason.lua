@@ -69,6 +69,7 @@ return {
         "eslint_d",
         "php-cs-fixer", -- PHP formatter
         "phpstan", -- PHP static analysis
+        "phpcs", -- PHP linter
       },
     })
   end,
