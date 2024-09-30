@@ -28,6 +28,13 @@ Verify the installation
 brew --version
 ```
 
+## Setup Git
+```shell
+git config --global user.name "yourusername"
+git config --global user.email "your@email.com"
+git config --global init.defaultBranch main
+```
+
 ## Install ZSH
 First, ensure that Homebrew is installed and up to date
 ```shell
