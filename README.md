@@ -168,6 +168,16 @@ alias reload-zsh="source ~/.zshrc"
 alias edit-zsh="nvim ~/.zshrc"
 ```
 
+## Install Node
+```shell
+brew install node
+```
+
+## Install Bun
+```shell
+curl -fsSL https://bun.sh/install | bash
+```
+
 ## Install Wezterm
 [Wezterm](https://wezfurlong.org/wezterm/install/linux.html#__tabbed_1_3)
 
@@ -201,11 +211,6 @@ leader (ctrl + a) + :source-file ~/.config/tmux/tmux.conf
 Install TMUX Plugins
 ```lua
 leader (ctrl + a) + shift + i
-```
-
-## Install Node
-```shell
-brew install node
 ```
 
 ## Install Neovim
