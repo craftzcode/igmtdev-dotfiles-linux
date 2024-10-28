@@ -19,7 +19,8 @@ Download and run the Homebrew installation script
 
 Follow the instructions given by the installation script. You may need to add Homebrew to your PATH. The script will provide the exact commands, but they typically look like this
 ```shell
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.profile
+echo >> /home/mo/.bashrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/mo/.bashrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ```
 
@@ -88,11 +89,13 @@ sudo chsh -s /home/linuxbrew/.linuxbrew/bin/zsh
 sudo chsh -s /home/linuxbrew/.linuxbrew/bin/zsh your-username
 ```
 
+Restart PC
+
 Now add the path of Homebrew on ZSH
 ```shell
-test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
-test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.zshrc
+echo >> /home/mo/.zshrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/mo/.zshrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ```
 Install Powerlevel10k
 ```shell
@@ -121,6 +124,16 @@ echo "source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax
 Restart ZSH
 ```shell
 source ~/.zshrc
+```
+
+## Install Zed
+```shell
+curl -f https://zed.dev/install.sh | sh
+```
+
+Add the path of Zed on ZSH
+```shell
+echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.zshrc
 ```
 
 ## Install Eza & Zoxide
