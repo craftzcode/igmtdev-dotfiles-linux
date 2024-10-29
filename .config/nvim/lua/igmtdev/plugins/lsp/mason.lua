@@ -67,9 +67,6 @@ return {
         "black", -- Python formatter
         "pylint",
         "eslint_d",
-        "php-cs-fixer", -- PHP formatter
-        "phpstan", -- PHP static analysis
-        "phpcs", -- PHP linter
       },
     })
   end,
