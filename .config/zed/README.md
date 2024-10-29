@@ -39,6 +39,8 @@ ctrl ] = Indent
 
 ```
 
+---
+
 ### Git
 ```
 space g h d = Toggle Hunk Diff
