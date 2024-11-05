@@ -31,6 +31,7 @@ shift q = Close Active Tab
 ctrl q = Close Inactive Tabs
 
 // Editor
+f2 = Rename Symbol
 alt enter = Select All Matches
 ctrl up = Move Line Up
 ctrl down = Move Line Down
@@ -128,8 +129,9 @@ space s w = Search Word Under Cursor
 
 ### Editor
 ```
-space i = Toggle Inline Assist
+f2 = Rename Symbol
 alt enter = Select All Matches
+space i = Toggle Inline Assist
 ctrl up = Move Line Up
 ctrl down = Move Line Down
 ctrl [ = Outdent
