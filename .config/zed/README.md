@@ -31,9 +31,9 @@ shift q = Close Active Tab
 ctrl q = Close Inactive Tabs
 
 // Editor
+alt enter = Select All Matches
 ctrl up = Move Line Up
 ctrl down = Move Line Down
-alt enter = Select All Matches
 ctrl [ = Outdent
 ctrl ] = Indent
 
